@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.haceb.runners.RunnerRegistrarProducto" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-29T14:50:56" hostname="GABRIEL" time="38.308">
+  <properties/>
+  <testcase name="Registrar producto en el carrito" classname="com.haceb.runners.RunnerRegistrarProducto" time="38.308"/>
+  <system-out><![CDATA[error en element not interactable
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [254b5fdbfd567d53b6f3f557be8171ff, clickElement {id=7BF11E3836CAD564DC50F769C1FDCC9C_element_175}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63062}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63062/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (254b5fdbfd567d53b6f3f557be8171ff)] -> xpath: //a[@class='shelve-link-name']]
+Session ID: 254b5fdbfd567d53b6f3f557be8171ff
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 31182
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may. 29, 2023 9:51:00 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 113
+may. 29, 2023 9:51:00 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.7.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+?[32m?[1m??[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m??[0m
+?[32m?[1m??[0m Activate publishing with one of the following:                                    ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m Environment variable:                            ?[36mCUCUMBER_PUBLISH_ENABLED?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m JUnit:                                           ?[36m@CucumberOptions?[0m(publish = ?[36mtrue?[0m) ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m More information at ?[36mhttps://cucumber.io/docs/cucumber/environment-variables/?[0m      ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m Disable this message with one of the following:                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
+?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+]]></system-err>
+</testsuite>
